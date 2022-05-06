@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/transition.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300&display=swap');
+        </style>
+    <title>Letícia Böttcher Teixeira</title>
+</head>
+<body onload="init()">
+    <div id="leftMenu">
+        <div class='shell'><div class='bar' ><a href="#home">Steckbrief</a></div></div>
+        <div class='shell'><div class='bar' ><a href="#about">Über Mich</a></div></div>
+        <div class='shell'><div class='bar' ><a href="#service">Services</a></div></div>
+        <div class='shell'><div class='bar' ><a href="#contact">Kontakt</a></div></div>
+    </div>
+    <div id="home" class="tile home">
+        <div class="background">
+            <canvas class="transition" data-ctop="top" data-cbottom="rgb(233,233,233)"></canvas>
+        </div>
+        <div class="content">
+            <div class="slide">
+            <div id="startUp">
+                <div id="container">
+                    <div id="main">
+                        <div id="photoMe">
+                            <img src="images/leti.jpg" />
+                        </div>
+                        <div id="textMe">
+                            <div class="shift" id="firstName">Letícia</div>
+                            <div class="shift" id="lastName">Böttcher Teixeira</div>
+                            <div class="shift" id="titleName">Sprecherin</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div id="bubbleMe">
+                <div class="text">
+                <span>
+                    Herzlich willkommen auf meiner ersten und einzigen offiziellen Sprecherwebsite. An dieser Stelle möchte ich Ihnen Informationen über mich selbst, meine Karriere, vergangene Projekte, anstehende Veranstaltungen sowie viele weitere Facetten meiner Arbeit liefern. Ich weiß Ihr Interesse und Engagement für meine professionellen Leistungen sehr zu schätzen und lade Sie herzlich dazu ein, durch meine Website zu stöbern.
+                </span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="tile about">
+        <div class="background">
+            <canvas class="transition" data-cbottom="rgb(33,33,33)" data-ctop="#AB47BC"></canvas>
+        </div>
+        <div class="content">
+            <div class="heading" style="color:rgb(33,33,33)">Über Mich</div>
+            <div class="block">
+                Hallo, ich bin <b>Letícia Böttcher Teixeira</b>, <b>18 Jahre</b> alt und angehende Sprecherin. Ich bin Halbbrasilianerin und beherrsche neben <b>Deutsch</b> und <b>Portugiesisch</b> auch noch <b>Englisch</b> und <b>Spanisch</b>. Momentan bin ich an der <b>Akademie Deutsche Pop</b> in Nürnberg und strebe die Berufe <b>Sprecherin, Studiosprecherin und Synchronsprecherin</b> an. Ich habe mich für diesen Weg entschieden, da ich etwas Kreatives machen will und die Menschen durch meine Stimme bewegen, unterhalten und zum Lachen bringen möchte. Ich habe mich schon immer für den Bereich Schauspiel interessiert und finde es einfach faszinierend und beeindruckend anhand seiner Stimme Charaktere zum Leben zu erwecken. <b>Ich habe bereits einige Jahre Bühnenerfahrung durch das Tanzen, Akkordeon spielen und Schultheater gesammelt </b>und möchte nun auch die Menschen hinter dem Mikro erreichen.
+
+                Ich würde meine Stimme als jung, süß/freundlich und facettenreich beschreiben. <b>Mein Stimmalter liegt bei ca. 16-20 Jahren und ist weiblich.</b>
+            </div>
+        </div>
+    </div>
+    <div id="service" class="tile services">
+        <div class="background">
+            <canvas class="transition" data-cbottom="#AB47BC" data-ctop="rgb(233,233,233)"></canvas>
+        </div>
+        <div class="content">
+            <div class="heading" style="color:rgb(233,233,233)">Services</div>   
+            <div id="table">
+                <div class="card">
+                    <div class="card_picture"></div>
+                    <div class="card_title">Werbespots</div>
+                    <div class="card_description">Ein kurze Beschreibung muss hier noch hin. Die muss auch nicht wirklich lang sein, aber halt Ja.</div>
+                    <div class="card_button">Noch nicht verfügbar</div>
+                </div>
+                <div class="card">
+                    <div class="card_picture"></div>
+                    <div class="card_title">Web-Videos</div>
+                    <div class="card_description">Ein kurze Beschreibung muss hier noch hin. Die muss auch nicht wirklich lang sein, aber halt Ja.</div>
+                    <div class="card_button">Noch nicht verfügbar</div>
+                </div>
+                <div class="card">
+                    <div class="card_picture"></div>
+                    <div class="card_title">Audition-Coaching</div>
+                    <div class="card_description">Ein kurze Beschreibung muss hier noch hin. Die muss auch nicht wirklich lang sein, aber halt Ja.</div>
+                    <div class="card_button">Noch nicht verfügbar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="tile bottom">
+        <div class="background">
+            <canvas class="transition" data-cbottom="rgb(33,33,33)" data-ctop="rgb(33,33,33)"></canvas>
+        </div>
+        <div class="content">
+            <div id="contact_picture">
+                <img src="images\contact.jpg"\>
+            </div>
+            <div id="contact_text">
+                Kontakt
+                <div id="contact_tiles">
+                        <a class="contact_tile" href="https://www.instagram.com/leticiaboettcherteixeira/">
+                            <div class="contact_icon"><img src="images/instagram.svg" \></div><div class="contact_lable">@leticiaboettcherteixeira</div>
+                        </a>
+                        <a class="contact_tile" href="mailto:853leti@gmail.com">
+                            <div class="contact_icon"><img src="images/email.svg" \></div><div class="contact_lable">853leti@gmail.com</div>
+                        </a>
+                        <div class="contact_tile">
+                            <div class="contact_icon"><img src="images/phone.svg" \></div><div class="contact_lable">0176 52716441</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="tile end">
+        <div class="background">
+            <canvas class="transition" data-cbottom="rgba(0,0,0,0)" data-ctop="#AB47BC"></canvas>
+        </div>
+        <div class="content">
+            <span style="font-size: 12pt; color:white;">&copy; 2022 Letícia Böttcher Teixeira</span>
+        </div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>

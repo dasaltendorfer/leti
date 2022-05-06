@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300&display=swap');
+        </style>
+    <title>Letícia Böttcher Teixeira</title>
+</head>
+<body onload="init()">
+    <div id="leftMenu">
+        <div class='shell'><div class='bar' ><a href="#home">Steckbrief</a></div></div>
+        <div class='shell'><div class='bar' ><a href="#about">Über Mich</a></div></div>
+        <div class='shell'><div class='bar' ><a href="#service">Services</a></div></div>
+        <div class='shell'><div class='bar' ><a href="#contact">Kontakt</a></div></div>
+    </div>
+    <div id="slider">
+        <div class="slide">
+        <canvas id="renderCanvas"></canvas>
+            <div id="startUp">
+                <div id="container">
+                <div id="main">
+                    <div id="photoMe">
+                        <img src="images/leti.jpg" />
+                    </div>
+                    <div id="textMe">
+                        <div class="shift" id="firstName">Letícia</div>
+                        <div class="shift" id="lastName">Böttcher Teixeira</div>
+                        <div class="shift" id="titleName">Sprecherin</h3>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div id="bubbleMe">
+                <div class="text">
+                Herzlich willkommen auf meiner ersten und einzigen offiziellen Sprecherwebsite. An dieser Stelle möchte ich Ihnen Informationen über mich selbst, meine Karriere, vergangene Projekte, anstehende Veranstaltungen sowie viele weitere Facetten meiner Arbeit liefern. Ich weiß Ihr Interesse und Engagement für meine professionellen Leistungen sehr zu schätzen und lade Sie herzlich dazu ein, durch meine Website zu stöbern.
+                    </div>
+            </div>
+        </div>
+        <div class="slide" style="background: red;">About</div>
+        <div class="slide" style="background: green;">Services</div>
+        <div class="slide" style="background: blue;">Kontakt</div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
