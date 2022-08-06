@@ -39,7 +39,7 @@ body {
 }
 
 .bottom {
-    background: #AB47BC;
+    background: #4b2833;
 }
 
 .toptop {
@@ -318,7 +318,7 @@ width: 70%;text-align: center;display: flex;justify-content: center;margin: 10px
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 5px solid #9c27b0;
+    border: 5px solid #933c56;
 }
 
 #contact_text {
@@ -340,7 +340,7 @@ color: rgb(233,233,233);display: flex;justify-content: center;
     aspect-ratio: 1;
     display: flex;
     align-items: center;
-    background: #9c27b0;border-radius: 5px;justify-content: center;
+    background: rgba(0,0,0,0.3);border-radius: 5px;justify-content: center;
 }
 
 #contact_tiles {
