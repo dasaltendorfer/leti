@@ -28,9 +28,9 @@ body {
 }
 
 .home {
-    background: #AB47BC;
-    /* background: rgb(33,33,33); */height: 120vh;
-    
+    background: #4b2833;
+    /* background: rgb(33,33,33); */
+    height: 120vh;
 }
 
 .transition {
@@ -111,7 +111,7 @@ body {
     float:right;
     z-index: 4;
     border-radius: 100%;
-    border: 5px solid #9c27b0;
+    border: 5px solid #933c56;
     overflow: hidden;
 }
 
@@ -127,7 +127,7 @@ body {
     font-family: 'Lora', serif;
     font-size: 80px;
     width: fit-content;
-    background: #9C27B0;
+    background: rgba(0,0,0,0.3);
     padding: 5px 20px 0px 5px;
     font-style: italic;
 }
@@ -138,7 +138,7 @@ body {
     width: fit-content;
     white-space: nowrap;
     padding: 5px 20px 0px 5px;
-    background: rgb(116 39 129);
+    background: rgba(0,0,0,0.4);
     font-style: italic;
 }
 
