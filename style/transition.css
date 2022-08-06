@@ -34,8 +34,15 @@ body {
 }
 
 .transition {
+    position: absolute;
     height: 100%;
     width: 100%;
+}
+
+#audio_background {
+    height: 100%;
+    width: 100%;   
+    position: absolute;
 }
 
 .bottom {

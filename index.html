@@ -12,7 +12,7 @@
         </style>
     <title>Letícia Böttcher Teixeira</title>
 </head>
-<body onload="init()">
+<body onload="init(); init_b();">
     <div id="leftMenu">
         <div class='shell'><div class='bar' ><a href="#home">Home</a></div></div>
         <div class='shell'><div class='bar' ><a href="#about">Über Mich</a></div></div>
@@ -21,6 +21,7 @@
     </div>
     <div id="home" class="tile home">
         <div class="background">
+            <canvas id="audio_background"></canvas>
             <canvas class="transition" data-ctop="top" data-cbottom="rgb(233,233,233)"></canvas>
         </div>
         <div class="content">
@@ -124,5 +125,6 @@
         </div>
     </div>
     <script src="script/index.js"></script>
+    <script src="script/background.js"></script>
 </body>
 </html>
