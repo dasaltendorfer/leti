@@ -7,7 +7,6 @@ function init_b() {
     width_b = window.innerWidth;
 
     var dpr = window.devicePixelRatio || 1;
-	dpr = 2;
 	canvas.width = width_b * dpr;
 	canvas.height = height_b * dpr;
 	context = canvas.getContext("2d");

@@ -10,9 +10,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300&display=swap');
         </style>
-    <title>Letícia Böttcher Teixeira</title>
+    <title>Letícia Böttcher Teixeira - Sprecherin</title>
 </head>
-<body onload="init(); init_b();">
+<body onload="init(); init_b(); init_a();">
     <div id="leftMenu">
         <div class='shell'><div class='bar' ><a href="#home">Home</a></div></div>
         <div class='shell'><div class='bar' ><a href="#about">Über Mich</a></div></div>
@@ -72,22 +72,36 @@
             <div class="heading" style="color:rgb(233,233,233)">Portfolio</div>   
             <div id="table">
                 <div class="card">
-                    <div class="card_picture"></div>
-                    <div class="card_title">Werbespots</div>
-                    <div class="card_description">Ein kurze Beschreibung muss hier noch hin. Die muss auch nicht wirklich lang sein, aber halt Ja.</div>
-                    <div class="card_button">Noch nicht verfügbar</div>
+                    <div class="card_picture">
+                        <audio src="/audios/kleine_hexe.mpeg" preload="metadata" type="audio/mpeg" loop></audio>
+                        <canvas class="audio"></canvas>
+                    </div>
+                    <div class="card_title">Die kleine Hexe</div>
+                    <div class="card_description">von Otfried Preußler</div>
                 </div>
                 <div class="card">
-                    <div class="card_picture"></div>
-                    <div class="card_title">Web-Videos</div>
-                    <div class="card_description">Ein kurze Beschreibung muss hier noch hin. Die muss auch nicht wirklich lang sein, aber halt Ja.</div>
-                    <div class="card_button">Noch nicht verfügbar</div>
+                    <div class="card_picture">
+                        <audio src="/audios/kleine_hexe.mpeg" preload="metadata" type="audio/mpeg" loop></audio>
+                        <canvas class="audio"></canvas>
+                    </div>
+                    <div class="card_title">Die kleine Hexe</div>
+                    <div class="card_description">von Otfried Preußler.</div>
                 </div>
                 <div class="card">
-                    <div class="card_picture"></div>
-                    <div class="card_title">Audition-Coaching</div>
-                    <div class="card_description">Ein kurze Beschreibung muss hier noch hin. Die muss auch nicht wirklich lang sein, aber halt Ja.</div>
-                    <div class="card_button">Noch nicht verfügbar</div>
+                    <div class="card_picture">
+                        <audio src="/audios/kleine_hexe.mpeg" preload="metadata" type="audio/mpeg" loop></audio>
+                        <canvas class="audio"></canvas>
+                    </div>
+                    <div class="card_title">Die kleine Hexe</div>
+                    <div class="card_description">von Otfried Preußler.</div>
+                </div>
+                <div class="card">
+                    <div class="card_picture">
+                        <audio src="/audios/kleine_hexe.mpeg" preload="metadata" type="audio/mpeg" loop></audio>
+                        <canvas class="audio"></canvas>
+                    </div>
+                    <div class="card_title">Die kleine Hexe</div>
+                    <div class="card_description">von Otfried Preußler.</div>
                 </div>
             </div>
         </div>
@@ -125,6 +139,7 @@
         </div>
     </div>
     <script src="script/index.js"></script>
+    <script src="script/audio.js"></script>
     <script src="script/background.js"></script>
 </body>
 </html>

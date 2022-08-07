@@ -72,7 +72,6 @@ function setupCanvas(canvas) {
     let width = canvas.clientWidth;
 
 	var dpr = window.devicePixelRatio || 1;
-	dpr = 2;
 	canvas.width = width * dpr;
 	canvas.height = height * dpr;
 	var ctx = canvas.getContext("2d");
@@ -82,7 +81,6 @@ function setupCanvas(canvas) {
 	return {"ctx":ctx, "height": height, "width": width, "ctop":canvas.dataset.ctop, "cbottom":canvas.dataset.cbottom};
 }
 
-window.addEventListener('hashchange', refresh);
 
 class Audio {
 	constructor(_pos) {
