@@ -295,7 +295,7 @@ margin-bottom: 10px;
 .card_title {
     font-size: 24pt;
     display: flex;
-    width: 100%;align-items: center;
+    width: 100%;text-align: center;align-items: center;
 padding: 10px;justify-content: center;/* background: rgba(0,0,0,0.3); */font-family: 'Roboto', serif;color: rgb(233,233,233);}
 
 .card_button {
