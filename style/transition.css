@@ -410,8 +410,10 @@ background: rgb(233,233,233);color: rgb(33,33,33);border-radius: 5px;padding-rig
 }
 
 .card a {
-    text-decoration: dotted;
-}
+    text-decoraation-style: underline !important;
+/* text-decoration-color: red; */text-decoration-line: underline;}
+
+a {}
 
 @media only screen and (max-width: 600px) {
     #leftMenu {
