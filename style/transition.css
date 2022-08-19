@@ -272,7 +272,7 @@ a {
     /* background: red; */
     width: 90vw;
     display: flex;
-margin-top: 20px;}
+margin-top: 20px;align-content: flex-start;flex-direction: row;align-items: flex-start;}
 
 .card {
     /* background: green; */
@@ -316,7 +316,7 @@ font-size: 14pt;display: flex;color: rgb(233,233,233);justify-content: center;te
     font-size: 12pt;
     font-family: 'Lora', serif;color:rgb(233 233 233);
     
-width: 70%;text-align: center;display: flex;justify-content: center;margin: 10px;}
+width: 70%;text-align: center;/* display: flex; *//* justify-content: center; */margin: 10px;}
 
 
 #contact_picture {
