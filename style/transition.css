@@ -409,6 +409,10 @@ background: rgb(233,233,233);color: rgb(33,33,33);border-radius: 5px;padding-rig
     width: 80%;
 }
 
+.card a {
+    text-decoration: dotted;
+}
+
 @media only screen and (max-width: 600px) {
     #leftMenu {
         display: none;
