@@ -272,11 +272,11 @@ a {
     /* background: red; */
     width: 90vw;
     display: flex;
-margin-top: 20px;align-content: flex-start;flex-direction: row;align-items: flex-start;}
+margin-top: 20px;align-content: flex-start;flex-direction: row;align-items: flex-start;flex-wrap: wrap;justify-content: center;}
 
 .card {
     /* background: green; */
-    width: 100%;
+    width: 22.5vw;
     display: flex;
     flex-direction: column;
     
@@ -410,10 +410,9 @@ background: rgb(233,233,233);color: rgb(33,33,33);border-radius: 5px;padding-rig
 }
 
 .card a {
-    text-decoraation-style: underline !important;
+    text-decoration-style: underline !important;
 /* text-decoration-color: red; */text-decoration-line: underline;}
 
-a {}
 
 @media only screen and (max-width: 600px) {
     #leftMenu {
@@ -467,7 +466,11 @@ a {}
   @media only screen and (max-width: 150vh) {
   
     #table {
-        display: inline;
+        display: flex;
+        /* margin-top: 20px; */
+        align-content: center;
+        flex-direction: column;
+        
     }
     .card {
         margin-top: 50px;
